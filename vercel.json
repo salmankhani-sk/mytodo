@@ -1,5 +1,5 @@
 {
-    "build": [
+    "build": 
         {
             "src": "mytodo/wsgi.py",
             "use": "@vercel/python",
@@ -8,7 +8,7 @@
                 "runtime": "python3.12"
             }
         }
-    ],
+    ,
     "routes": [
         {
             "src": "/(.*)",
